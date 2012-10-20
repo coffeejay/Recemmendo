@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380B93971633669900C467B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380B93961633669900C467B9 /* UIKit.framework */; };
+		380B93991633669900C467B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380B93981633669900C467B9 /* Foundation.framework */; };
+		380B939B1633669900C467B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380B939A1633669900C467B9 /* CoreGraphics.framework */; };
+		380B93A11633669900C467B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 380B939F1633669900C467B9 /* InfoPlist.strings */; };
+		380B93A31633669900C467B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 380B93A21633669900C467B9 /* main.m */; };
+		380B93A71633669900C467B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 380B93A61633669900C467B9 /* AppDelegate.m */; };
+		380B93A91633669900C467B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 380B93A81633669900C467B9 /* Default.png */; };
+		380B93AB1633669900C467B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 380B93AA1633669900C467B9 /* Default@2x.png */; };
+		380B93AD1633669900C467B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 380B93AC1633669900C467B9 /* Default-568h@2x.png */; };
+		380B93B01633669900C467B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 380B93AF1633669900C467B9 /* ViewController.m */; };
+		380B93B31633669900C467B9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 380B93B11633669900C467B9 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		380B93921633669900C467B9 /* Recemendo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recemendo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		380B93961633669900C467B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		380B93981633669900C467B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		380B939A1633669900C467B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		380B939E1633669900C467B9 /* Recemendo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recemendo-Info.plist"; sourceTree = "<group>"; };
+		380B93A01633669900C467B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		380B93A21633669900C467B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		380B93A41633669900C467B9 /* Recemendo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recemendo-Prefix.pch"; sourceTree = "<group>"; };
+		380B93A51633669900C467B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		380B93A61633669900C467B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		380B93A81633669900C467B9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		380B93AA1633669900C467B9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		380B93AC1633669900C467B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		380B93AE1633669900C467B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		380B93AF1633669900C467B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		380B93B21633669900C467B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		380B938F1633669900C467B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380B93971633669900C467B9 /* UIKit.framework in Frameworks */,
+				380B93991633669900C467B9 /* Foundation.framework in Frameworks */,
+				380B939B1633669900C467B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380B93871633669900C467B9 = {
+			isa = PBXGroup;
+			children = (
+				380B939C1633669900C467B9 /* Recemendo */,
+				380B93951633669900C467B9 /* Frameworks */,
+				380B93931633669900C467B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		380B93931633669900C467B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				380B93921633669900C467B9 /* Recemendo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		380B93951633669900C467B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				380B93961633669900C467B9 /* UIKit.framework */,
+				380B93981633669900C467B9 /* Foundation.framework */,
+				380B939A1633669900C467B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		380B939C1633669900C467B9 /* Recemendo */ = {
+			isa = PBXGroup;
+			children = (
+				380B93A51633669900C467B9 /* AppDelegate.h */,
+				380B93A61633669900C467B9 /* AppDelegate.m */,
+				380B93AE1633669900C467B9 /* ViewController.h */,
+				380B93AF1633669900C467B9 /* ViewController.m */,
+				380B93B11633669900C467B9 /* ViewController.xib */,
+				380B939D1633669900C467B9 /* Supporting Files */,
+			);
+			path = Recemendo;
+			sourceTree = "<group>";
+		};
+		380B939D1633669900C467B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				380B939E1633669900C467B9 /* Recemendo-Info.plist */,
+				380B939F1633669900C467B9 /* InfoPlist.strings */,
+				380B93A21633669900C467B9 /* main.m */,
+				380B93A41633669900C467B9 /* Recemendo-Prefix.pch */,
+				380B93A81633669900C467B9 /* Default.png */,
+				380B93AA1633669900C467B9 /* Default@2x.png */,
+				380B93AC1633669900C467B9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		380B93911633669900C467B9 /* Recemendo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380B93B61633669900C467B9 /* Build configuration list for PBXNativeTarget "Recemendo" */;
+			buildPhases = (
+				380B938E1633669900C467B9 /* Sources */,
+				380B938F1633669900C467B9 /* Frameworks */,
+				380B93901633669900C467B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recemendo;
+			productName = Recemendo;
+			productReference = 380B93921633669900C467B9 /* Recemendo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		380B93891633669900C467B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jay Deuskar";
+			};
+			buildConfigurationList = 380B938C1633669900C467B9 /* Build configuration list for PBXProject "Recemendo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 380B93871633669900C467B9;
+			productRefGroup = 380B93931633669900C467B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				380B93911633669900C467B9 /* Recemendo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		380B93901633669900C467B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380B93A11633669900C467B9 /* InfoPlist.strings in Resources */,
+				380B93A91633669900C467B9 /* Default.png in Resources */,
+				380B93AB1633669900C467B9 /* Default@2x.png in Resources */,
+				380B93AD1633669900C467B9 /* Default-568h@2x.png in Resources */,
+				380B93B31633669900C467B9 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		380B938E1633669900C467B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380B93A31633669900C467B9 /* main.m in Sources */,
+				380B93A71633669900C467B9 /* AppDelegate.m in Sources */,
+				380B93B01633669900C467B9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		380B939F1633669900C467B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380B93A01633669900C467B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		380B93B11633669900C467B9 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380B93B21633669900C467B9 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		380B93B41633669900C467B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		380B93B51633669900C467B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		380B93B71633669900C467B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recemendo/Recemendo-Prefix.pch";
+				INFOPLIST_FILE = "Recemendo/Recemendo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		380B93B81633669900C467B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recemendo/Recemendo-Prefix.pch";
+				INFOPLIST_FILE = "Recemendo/Recemendo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		380B938C1633669900C467B9 /* Build configuration list for PBXProject "Recemendo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380B93B41633669900C467B9 /* Debug */,
+				380B93B51633669900C467B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380B93B61633669900C467B9 /* Build configuration list for PBXNativeTarget "Recemendo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380B93B71633669900C467B9 /* Debug */,
+				380B93B81633669900C467B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 380B93891633669900C467B9 /* Project object */;
+}
